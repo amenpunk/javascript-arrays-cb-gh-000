@@ -18,11 +18,11 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 }
 
 function removeElementFromBeginningOfArray(array){
-
+  
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
-
+    array.slice(1);
 }
 
 function removeElementFromEndOfArray(array) {
