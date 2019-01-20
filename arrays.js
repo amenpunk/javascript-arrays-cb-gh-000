@@ -30,5 +30,6 @@ function removeElementFromEndOfArray(array) {
 }
 
 function addElementToEndOfArray(array,element){
-
+    newArray = [...array, element];
+    return newArray}
 }
